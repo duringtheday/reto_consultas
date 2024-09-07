@@ -37,16 +37,26 @@ nav h1 {
 }
 
 nav li {
-    padding: 20px;
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: inline-block;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 0.8px;
 }
 
 a {
+    padding: 10px;
     color: white;
     cursor: pointer;
+    border-radius: 10px;
 }
+a:hover {
+    transition: all 0.3s linear;
+    transform: scale(1.02);
+    background: linear-gradient(45deg, #006500, #2f912f);
+}
+
 
 .tarjetas {
     display: flex;
