@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* html,
+body {
+    height: 100vh;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.8px;
+}
+
+.header {
+    padding: 20px;
+    background: linear-gradient(45deg, #008000, #42b442);
+    color: white;
+    text-align: center;
+}
+
+nav h1 {
+    margin-top: 20px;
+}
+
+nav li {
+    padding: 20px;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.8px;
+}
+
+a {
+    color: white;
+    cursor: pointer;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 300px;
+}
+
+button {
+    margin: 25px;
+    padding: 20px;
+    background: linear-gradient(45deg, #d1d1d1, #f7f7f7);
+    border-radius: 10px;
+    border: 1.5px groove rgb(211, 211, 211);
+    cursor: pointer;
+}
+
+button h4,
+button p {
+    margin: 15px;
+}
+
+button h4 {
+    font-size: 16px;
+}
+
+button:hover {
+    transition: all 0.3s linear;
+    transform: scale(1.02);
+    background: linear-gradient(-15deg, #b6b6b6, #f7f7f7);
+}
+
+.informacion {
+    padding: 50px;
+    text-align: center;
+}
+
+.informacion h4 {
+    font-size: 22px;
+}
+
+.informacion p {
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    padding: 20px;
+    background: linear-gradient(45deg, #008000, #42b442);
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+}
